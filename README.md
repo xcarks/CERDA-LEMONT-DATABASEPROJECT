@@ -90,7 +90,37 @@ DATA DICTIONARY:
 | Pioneer format legality status   | Enumeration                                        | 15 characters              |
 
 
-MCD PICTURE:  
-<img width="862" height="636" alt="image" src="https://github.com/user-attachments/assets/6a64a55d-e71a-4237-889e-9c53005c65c7" />
+CDM PICTURE:  
+<img width="1150" height="629" alt="image" src="https://github.com/user-attachments/assets/fdbc0c0e-933c-4a07-b336-c238001708b0" />
 
 
+LDM PICTURE:  
+<img width="1150" height="649" alt="image" src="https://github.com/user-attachments/assets/a7119bb6-3632-40fa-b49c-54f4d3c6def8" />  
+
+<img width="864" height="649" alt="image" src="https://github.com/user-attachments/assets/aa1ad655-fc00-4497-bbdf-6ab8c04dd1a6" />
+
+
+USAGE SCENARIO:  
+This database is used by a specialized Magic: The Gathering store that also organizes local tournaments and advises players building decks for different formats.
+
+The main user is a Tournament and Store Manager.  
+
+This person uses the database for four practical purposes:  
+1) help players find cards legal in specific formats such as Standard, Pioneer, Modern, Commander or Pauper   
+2) recommend cards according to deck-building criteria such as color, type, subtype, mana cost, rarity and price 
+3) identify valuable cards for collectors, such as Mythic, legendary, rare and expensive cards  
+4) prepare tournament and shop reports, for example statistics by rarity, set, color and format legality  
+
+DATA TO EXTRACT  
+
+The Tournament and Store Manager needs queries to retrieve:  
+- names, prices and mana costs of cards  
+- cards by set, color, type, subtype and rarity  
+- cards legal or not legal in a chosen format  
+- legendary cards, token cards and collector-oriented cards  
+- price statistics by rarity, set, color and type  
+- cards matching advanced conditions such as:  
+	* cards without subtype  
+	* cards legal in several formats  
+    * cards more expensive than others in a category  
+	* cards suitable for Pauper or Commander players  
